@@ -23,8 +23,7 @@ void setup() {
 
 void loop() {
 
-    // TODO 5:
-    // Read analog value from FSR
+    fsrValue = analogRead(fsrPin);
 
     // TODO 6:
     // Print raw ADC value
