@@ -16,8 +16,7 @@ int fsrValue;
 
 void setup() {
 
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
+    Serial.begin(9600);
 
     // TODO 4:
     // Print system initialization message
