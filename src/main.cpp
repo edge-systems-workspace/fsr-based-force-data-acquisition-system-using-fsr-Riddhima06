@@ -28,11 +28,8 @@ void loop() {
     Serial.println(fsrValue);
 
     if(fsrValue > 500) {
-        // pressure detected
+        Serial.println("Pressure detected!");
     }
-
-    // TODO 8:
-    // Print pressure detection message
 
     // TODO 9:
     // Add delay (500ms or 1 second)
