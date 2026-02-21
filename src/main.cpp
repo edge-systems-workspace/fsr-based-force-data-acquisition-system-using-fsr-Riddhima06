@@ -25,8 +25,7 @@ void loop() {
 
     fsrValue = analogRead(fsrPin);
 
-    // TODO 6:
-    // Print raw ADC value
+    Serial.println(fsrValue);
 
     // TODO 7:
     // Apply simple threshold logic (e.g., detect pressure)
