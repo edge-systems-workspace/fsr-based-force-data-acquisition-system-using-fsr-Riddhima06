@@ -12,8 +12,7 @@
 
 int fsrPin = A0;
 
- // TODO 2:
- // Create variable to store sensor reading
+int fsrValue;
 
 void setup() {
 
