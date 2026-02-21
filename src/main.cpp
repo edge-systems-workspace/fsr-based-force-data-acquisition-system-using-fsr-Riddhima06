@@ -18,8 +18,7 @@ void setup() {
 
     Serial.begin(9600);
 
-    // TODO 4:
-    // Print system initialization message
+    Serial.println("FSR Force Measurement System Initialized");
 }
 
 void loop() {
