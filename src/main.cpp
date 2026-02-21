@@ -31,6 +31,5 @@ void loop() {
         Serial.println("Pressure detected!");
     }
 
-    // TODO 9:
-    // Add delay (500ms or 1 second)
+    delay(500);
 }
